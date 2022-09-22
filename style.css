@@ -30,7 +30,8 @@ body {
     width: 1366px;
     height: 133px;
     left: 0px;
-    top: 0px;}
+    top: 0px;
+}
 
 .content {
     position: absolute;
@@ -42,7 +43,7 @@ body {
 
 .header {
     position: absolute;
-    width: 586px;
+    width: 626px;
     height: 54px;
     left: 127px;
     top: 187px;
@@ -118,7 +119,7 @@ body {
 
 .counter {
     position: absolute;
-    width: 494px;
+    width: 514px;
     height: 79px;
     left: 123px;
     top: 280px;
@@ -159,6 +160,12 @@ body {
     background: #6C63FF;
     border-radius: 10px;
     border: #6C63FF;
+    cursor: pointer;
+}
+
+.message button a {
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 .right img {
@@ -175,4 +182,51 @@ body {
     height: 229px;
     left: 0px;
     top: 542px;
+}
+
+.container-modal{
+    color: #8d0000;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+.modal:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modal>div {
+    width: 400px;
+    position: relative;
+    margin: 10% auto;
+    padding: 15px 20px;
+    background: #fff;
+}
+
+.fechar {
+    position: absolute;
+    width: 30px;
+    right: -15px;
+    top: -20px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 5px;
+    background: #ff4545;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #8d0000;
 }

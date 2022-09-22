@@ -3,7 +3,7 @@
 </h4>
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="versão 1 do projeto" title="#countdown" src="./.github/tela-1.jpg">
+  <img alt="versão 1 do projeto" title="#countdown" src="./.github/tela-desktop-1.jpg">
 </p>  
 
 ### 💻 Sobre o desafio
@@ -36,15 +36,15 @@ As aulas deste conjunto abordam tipos de dados, variáveis, funções, manipula�
 
 ##### 🚀 Requisitos Principais
 
-- [ ] 1. A página deve ter um **countdown timer** com uma contagem regressiva para o tempo de lançamento.
-- [ ] 2. Adicione um **botão** com o texto "inscreva-se".
+- [x] 1. A página deve ter um **countdown timer** com uma contagem regressiva para o tempo de lançamento.
+- [x] 2. Adicione um **botão** com o texto "inscreva-se".
 
 Neste desafio você é livre para criar seu próprio layout ou pode usar o layout disponibilizado acima como base.
 
 ##### 🚀 Requisitos Extras
 
-- [ ] 1. Adicione um modal que aparece quando o usuário clica no botão "Inscreva-se".
-- [ ] 2. No modal adicione um formulário com inputs de nome, e-mail e um botão de envio.
+- [x] 1. Adicione um modal que aparece quando o usuário clica no botão "Inscreva-se".
+- [x] 2. No modal adicione um formulário com inputs de nome, e-mail e um botão de envio.
  
 ### 🎨 Style Guide
 
@@ -87,13 +87,16 @@ Após concluí-los, adicionar esses códigos ao seu Github é uma boa forma de d
 - [ ] [Learn Responsive Design](https://web.dev/learn/design/)
 - [ ] [Learn CSS](https://web.dev/learn/css/)
 - [x] Design sugerido construído
+- [ ] Exibir informações da inscrição no home abaixo do botão
+- [ ] usar [addEventListener](https://www.w3schools.com/jsref/event_preventdefault.asp) nos botões 
+- [ ] estilizar o modal com a identidade da home
 
 #### 📅 Telas
 
 - Desktop, evolução do layout:
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="versão 1 do projeto" title="#receita" src="./.github/tela-1.jpg">
+  <img alt="versão 1 do projeto" title="#receita" src="./.github/tela-desktop-1.jpg">
 </p>
 
 Feito com ❤️ por Douglas A B Novato. 👋🏽 [Entre em contato!](https://www.linkedin.com/in/douglasabnovato/)
