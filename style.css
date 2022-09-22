@@ -30,9 +30,7 @@ body {
     width: 1366px;
     height: 133px;
     left: 0px;
-    top: 0px;
-    background: rgba(221, 219, 242, 0.26);
-}
+    top: 0px;}
 
 .content {
     position: absolute;
@@ -177,5 +175,4 @@ body {
     height: 229px;
     left: 0px;
     top: 542px;
-    background: rgba(221, 219, 242, 0.26);
 }
