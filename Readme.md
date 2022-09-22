@@ -80,9 +80,9 @@ Após concluí-los, adicionar esses códigos ao seu Github é uma boa forma de d
 
 #### 📅 Tarefas
 
-- [ ] Organizando os detalhes do projeto no readme.md
-- [ ] Uma branch main e uma developer
-- [ ] Favicon
+- [x] Organizando os detalhes do projeto no readme.md
+- [x] Uma branch main e uma developer
+- [x] Favicon
 - [ ] [Learn Responsive Design](https://web.dev/learn/design/)
 - [ ] [Learn CSS](https://web.dev/learn/css/)
 
