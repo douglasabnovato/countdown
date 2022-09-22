@@ -14,10 +14,70 @@
 }
 
 body {
-    background: var(--light-grey);
+    background: #E5E5E5;
 }
 
-div {
-    color: var(--text-color);
-    font-weight: 700;
+.main {
+    position: relative;
+    width: 1366px;
+    height: 771px;
+    background: #FFFFFF;
+    margin: 2vh auto;
+}
+
+.content {
+    position: absolute;
+    width: 494px;
+    height: 172px;
+    left: 123px;
+    top: 187px;
+}
+
+button {
+    position: absolute;
+    width: 160px;
+    height: 46px;
+    left: 290px;
+    top: 457px;
+}
+
+.message .sign-up {
+    position: absolute;
+    width: 349px;
+    height: 21px;
+    left: 196px;
+    top: 405px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #9C9AB6;
+}
+
+.right img {
+    position: absolute;
+    width: 607px;
+    height: 435px;
+    left: 699px;
+    top: 150px;
+}
+
+.top {
+    position: absolute;
+    width: 1366px;
+    height: 133px;
+    left: 0px;
+    top: 0px;
+    background: rgba(221, 219, 242, 0.26);
+}
+
+.message button {
+    position: absolute;
+    width: 160px;
+    height: 46px;
+    left: 290px;
+    top: 457px;
+    background: #6C63FF;
+    border-radius: 10px;
 }
