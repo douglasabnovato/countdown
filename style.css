@@ -30,7 +30,8 @@ body {
     width: 1366px;
     height: 133px;
     left: 0px;
-    top: 0px;}
+    top: 0px;
+}
 
 .content {
     position: absolute;
@@ -42,7 +43,7 @@ body {
 
 .header {
     position: absolute;
-    width: 586px;
+    width: 626px;
     height: 54px;
     left: 127px;
     top: 187px;
@@ -118,7 +119,7 @@ body {
 
 .counter {
     position: absolute;
-    width: 494px;
+    width: 514px;
     height: 79px;
     left: 123px;
     top: 280px;

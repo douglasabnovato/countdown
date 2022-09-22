@@ -87,6 +87,7 @@ Após concluí-los, adicionar esses códigos ao seu Github é uma boa forma de d
 - [ ] [Learn Responsive Design](https://web.dev/learn/design/)
 - [ ] [Learn CSS](https://web.dev/learn/css/)
 - [x] Design sugerido construído
+- [ ] Exibir informações da inscrição no home abaixo do botão
 
 #### 📅 Telas
 
