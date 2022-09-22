@@ -89,6 +89,7 @@ Após concluí-los, adicionar esses códigos ao seu Github é uma boa forma de d
 - [x] Design sugerido construído
 - [ ] Exibir informações da inscrição no home abaixo do botão
 - [ ] usar [addEventListener](https://www.w3schools.com/jsref/event_preventdefault.asp) nos botões 
+- [ ] estilizar o modal com a identidade da home
 
 #### 📅 Telas
 
