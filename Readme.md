@@ -43,7 +43,7 @@ Neste desafio você é livre para criar seu próprio layout ou pode usar o layou
 
 ##### 🚀 Requisitos Extras
 
-- [ ] 1. Adicione um modal que aparece quando o usuário clica no botão "Inscreva-se".
+- [x] 1. Adicione um modal que aparece quando o usuário clica no botão "Inscreva-se".
 - [ ] 2. No modal adicione um formulário com inputs de nome, e-mail e um botão de envio.
  
 ### 🎨 Style Guide
