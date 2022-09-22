@@ -36,8 +36,8 @@ As aulas deste conjunto abordam tipos de dados, variáveis, funções, manipula�
 
 ##### 🚀 Requisitos Principais
 
-- [ ] 1. A página deve ter um **countdown timer** com uma contagem regressiva para o tempo de lançamento.
-- [ ] 2. Adicione um **botão** com o texto "inscreva-se".
+- [x] 1. A página deve ter um **countdown timer** com uma contagem regressiva para o tempo de lançamento.
+- [x] 2. Adicione um **botão** com o texto "inscreva-se".
 
 Neste desafio você é livre para criar seu próprio layout ou pode usar o layout disponibilizado acima como base.
 

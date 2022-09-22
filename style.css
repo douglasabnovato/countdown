@@ -160,6 +160,7 @@ body {
     background: #6C63FF;
     border-radius: 10px;
     border: #6C63FF;
+    cursor: pointer;
 }
 
 .right img {
