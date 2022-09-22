@@ -44,7 +44,7 @@ Neste desafio você é livre para criar seu próprio layout ou pode usar o layou
 ##### 🚀 Requisitos Extras
 
 - [x] 1. Adicione um modal que aparece quando o usuário clica no botão "Inscreva-se".
-- [ ] 2. No modal adicione um formulário com inputs de nome, e-mail e um botão de envio.
+- [x] 2. No modal adicione um formulário com inputs de nome, e-mail e um botão de envio.
  
 ### 🎨 Style Guide
 
@@ -88,6 +88,7 @@ Após concluí-los, adicionar esses códigos ao seu Github é uma boa forma de d
 - [ ] [Learn CSS](https://web.dev/learn/css/)
 - [x] Design sugerido construído
 - [ ] Exibir informações da inscrição no home abaixo do botão
+- [ ] usar [addEventListener](https://www.w3schools.com/jsref/event_preventdefault.asp) nos botões 
 
 #### 📅 Telas
 

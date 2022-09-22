@@ -21,3 +21,7 @@ var x = setInterval(function () {
 function inscrever(){
     console.log("inscrever")
 }
+
+function enviarDados(){
+    console.log("enviarDados")
+}
