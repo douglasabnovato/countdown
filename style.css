@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+:root {
+    --black: #4D4C59;
+    --purple: #6C63FF;
+    --light-grey: #C8C8C8;
+    --text-color: #9C9AB6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #E5E5E5;
+}
+
+.main {
+    position: relative;
+    width: 1366px;
+    height: 771px;
+    background: #FFFFFF;
+    margin: 2vh auto;
+}
+
+.top {
+    position: absolute;
+    width: 1366px;
+    height: 133px;
+    left: 0px;
+    top: 0px;}
+
+.content {
+    position: absolute;
+    width: 494px;
+    height: 172px;
+    left: 13px;
+    top: 17px;
+}
+
+.header {
+    position: absolute;
+    width: 586px;
+    height: 54px;
+    left: 127px;
+    top: 187px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    letter-spacing: 0.105em;
+    text-transform: uppercase;
+    color: #6C63FF;
+}
+
+.title .day-title {
+    position: absolute;
+    width: 30px;
+    height: 21px;
+    left: 152px;
+    top: 260px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #C8C8C8;
+}
+
+.title .hour-title {
+    position: absolute;
+    width: 41px;
+    height: 21px;
+    left: 273px;
+    top: 260px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #C8C8C8;
+}
+
+.title .minute-title {
+    position: absolute;
+    width: 54px;
+    height: 21px;
+    left: 405px;
+    top: 260px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #C8C8C8;
+}
+
+.title .second-title {
+    position: absolute;
+    width: 70px;
+    height: 21px;
+    left: 536px;
+    top: 260px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #C8C8C8;
+}
+
+.counter {
+    position: absolute;
+    width: 494px;
+    height: 79px;
+    left: 123px;
+    top: 280px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 108px;
+    color: #4D4C59;
+}
+
+.message .sign-up {
+    position: absolute;
+    width: 349px;
+    height: 21px;
+    left: 196px;
+    top: 405px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #9C9AB6;
+}
+
+.message button {
+    position: absolute;
+    width: 160px;
+    height: 46px;
+    left: 290px;
+    top: 457px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #6C63FF;
+    border-radius: 10px;
+    border: #6C63FF;
+}
+
+.right img {
+    position: absolute;
+    width: 607px;
+    height: 435px;
+    left: 699px;
+    top: 150px;
+}
+
+.bottom {
+    position: absolute;
+    width: 1366px;
+    height: 229px;
+    left: 0px;
+    top: 542px;
+}
