@@ -3,7 +3,7 @@
 </h4>
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="versão 1 do projeto" title="#countdown" src="./.github/template-1.png">
+  <img alt="versão 1 do projeto" title="#countdown" src="./.github/tela-1.jpg">
 </p>  
 
 ### 💻 Sobre o desafio
@@ -34,16 +34,17 @@ As aulas deste conjunto abordam tipos de dados, variáveis, funções, manipula�
 
 #### 🚀 Requisitos para o desafio 
 
-- Para concluir o desafio você deve cumprir alguns requisitos:
-    1. A página deve ter um **countdown timer** com uma contagem regressiva para o tempo de lançamento.
-    2. Adicione um **botão** com o texto "inscreva-se".
+##### 🚀 Requisitos Principais
 
-- Neste desafio você é livre para criar seu próprio layout ou pode usar o layout disponibilizado acima como base.
+- [ ] 1. A página deve ter um **countdown timer** com uma contagem regressiva para o tempo de lançamento.
+- [ ] 2. Adicione um **botão** com o texto "inscreva-se".
 
-***Se desafie também:***
+Neste desafio você é livre para criar seu próprio layout ou pode usar o layout disponibilizado acima como base.
 
-- Adicione um modal que aparece quando o usuário clica no botão "Inscreva-se".
-- No modal adicione um formulário com inputs de nome, e-mail e um botão de envio.
+##### 🚀 Requisitos Extras
+
+- [ ] 1. Adicione um modal que aparece quando o usuário clica no botão "Inscreva-se".
+- [ ] 2. No modal adicione um formulário com inputs de nome, e-mail e um botão de envio.
  
 ### 🎨 Style Guide
 
@@ -85,13 +86,14 @@ Após concluí-los, adicionar esses códigos ao seu Github é uma boa forma de d
 - [x] Favicon
 - [ ] [Learn Responsive Design](https://web.dev/learn/design/)
 - [ ] [Learn CSS](https://web.dev/learn/css/)
+- [x] Design sugerido construído
 
 #### 📅 Telas
 
 - Desktop, evolução do layout:
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="versão 1 do projeto" title="#receita" src="./.github/tela-desktop-3-close.jpg">
+  <img alt="versão 1 do projeto" title="#receita" src="./.github/tela-1.jpg">
 </p>
 
 Feito com ❤️ por Douglas A B Novato. 👋🏽 [Entre em contato!](https://www.linkedin.com/in/douglasabnovato/)
