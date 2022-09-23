@@ -11,15 +11,12 @@
   </head>
   <body>
     <div class="main">
-
       <div class="top">
         <img src="./assets/top-image.svg" alt="" />
       </div>
 
       <div class="left">
-
         <div class="content">
-
           <div class="header">PRONTO PARA LANÇAR EM...</div>
 
           <div class="title">
@@ -34,20 +31,33 @@
           </div>
 
           <div class="message">
-
             <span class="sign-up"
               >Inscreva-se para saber mais sobre o lançamento</span
             >
-            
-            <a href="#abrirModal"><button onclick="inscrever()">Inscreva-se</button></a>
 
-            <ul id="myUL" class="myUL">
-            </ul>
+            <a href="#abrirModal"
+              ><button onclick="inscrever()">Inscreva-se</button></a
+            >
+
+            <div class="listname">
+              <ul id="myUL" class="myUL">
+                <li>Hit the gym</li>
+                <li>Pay bills</li>
+                <li>Meet George</li>
+                <li>Buy eggs</li>
+                <li>Read a book</li>
+                <li>Organize office</li>
+                <li>Hit the gym</li>
+                <li>Pay bills</li>
+                <li>Meet George</li>
+                <li>Buy eggs</li>
+                <li>Read a book</li>
+                <li>Organize office</li>
+              </ul>
+            </div>
 
             <div id="abrirModal" class="modal">
-
               <div class="container-modal">
-                
                 <div class="header-modal">
                   <a href="#fechar" title="Fechar" class="fechar">x</a>
                   <h2>Venha comigo</h2>
@@ -71,18 +81,12 @@
                   />
                   <br /><br />
 
-                  <input type="submit" onclick="enviarDados()" value="Enviar" />
-
+                  <input type="submit" onclick="newElement()" value="Enviar" />
                 </form>
-
               </div>
-
             </div>
-
           </div>
-
         </div>
-
       </div>
 
       <div class="right">
@@ -92,7 +96,6 @@
       <div class="bottom">
         <img src="./assets/bottom-image.svg" alt="" />
       </div>
-
     </div>
     <script src="./main.js"></script>
   </body>

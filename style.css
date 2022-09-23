@@ -257,13 +257,17 @@ body {
     color: #6C63FF;
 }
 
-ul { 
+.listname ul{
+    position: absolute;
+    background-color: lightblue;
+    width: 42vw;
+    height: 12vh;
     margin: 0;
     padding: 0;
-}
+    overflow-y: auto;
+} 
 
 ul li {
-    cursor: pointer;
     position: relative;
     padding: 12px 8px 12px 40px;
     list-style-type: none;
@@ -282,25 +286,6 @@ ul li:nth-child(odd) {
 
 ul li:hover {
     background: #ddd;
-}
-
-ul li.checked {
-    background: #888;
-    color: #fff;
-    text-decoration: line-through;
-}
-
-ul li.checked::before {
-    content: '';
-    position: absolute;
-    border-color: #fff;
-    border-style: solid;
-    border-width: 0 2px 2px 0;
-    top: 10px;
-    left: 16px;
-    transform: rotate(45deg);
-    height: 15px;
-    width: 7px;
 }
 
 .close {
