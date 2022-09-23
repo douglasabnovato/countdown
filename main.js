@@ -21,14 +21,17 @@ var x = setInterval(function () {
 
 /* abrir modal */
 
-document
-  .getElementById("inscrever")
-  .addEventListener("click", function (event) {
-    event.preventDefault();
-    console.log("inscrever");
-  });
+// Get the modal
+var modal = document.getElementById("abrirModal");
 
-  
+// Get the button that opens the modal
+var btn = document.getElementById("inscrever");
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
 /* adicionar list */
 
 

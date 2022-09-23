@@ -88,8 +88,7 @@ Após concluí-los, adicionar esses códigos ao seu Github é uma boa forma de d
 - [ ] [Learn Responsive Design](https://web.dev/learn/design/)
 - [ ] [Learn CSS](https://web.dev/learn/css/)
 - [x] Design sugerido construído
-- [ ] Exibir informações da inscrição no home abaixo do botão
-- [ ] usar [addEventListener](https://www.w3schools.com/jsref/event_preventdefault.asp) nos botões 
+- [ ] Adicionar informações da inscrição no home abaixo do botão
 - [x] estilizar o modal com a identidade da home
 - [x] estilizar a lista de informações de inscritos  
 

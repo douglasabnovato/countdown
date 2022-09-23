@@ -314,6 +314,7 @@ ul li:hover {
 .close:hover {
     background-color: #6C63FF;
     color: white;
+    cursor: pointer;
 }
 
 .right img {
