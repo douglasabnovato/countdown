@@ -11,34 +11,48 @@
   </head>
   <body>
     <div class="main">
+
       <div class="top">
         <img src="./assets/top-image.svg" alt="" />
       </div>
+
       <div class="left">
+
         <div class="content">
+
           <div class="header">PRONTO PARA LANÇAR EM...</div>
+
           <div class="title">
             <span class="day-title">Dias</span>
             <span class="hour-title">Horas</span>
             <span class="minute-title">Minutos</span>
             <span class="second-title">Segundos</span>
           </div>
+
           <div class="counter">
             <div id="timer"></div>
           </div>
+
           <div class="message">
+
             <span class="sign-up"
               >Inscreva-se para saber mais sobre o lançamento</span
             >
-            <a href="#abrirModal">
-              <button onclick="inscrever()">Inscreva-se</button>
-            </a>
+            
+            <a href="#abrirModal"><button onclick="inscrever()">Inscreva-se</button></a>
+
+            <ul id="myUL" class="myUL">
+            </ul>
+
             <div id="abrirModal" class="modal">
+
               <div class="container-modal">
+                
                 <div class="header-modal">
                   <a href="#fechar" title="Fechar" class="fechar">x</a>
                   <h2>Venha comigo</h2>
                 </div>
+
                 <form action="" class="content-modal">
                   <label for="name">Nome:</label><br />
                   <input
@@ -47,26 +61,38 @@
                     name="name"
                     placeholder="nome completo"
                   /><br />
+
                   <label for="email">E-mail:</label><br />
                   <input
                     type="e-mail"
                     id="email"
                     name="email"
                     placeholder="seu melhor e-mail"
-                  /><br /><br />
+                  />
+                  <br /><br />
+
                   <input type="submit" onclick="enviarDados()" value="Enviar" />
+
                 </form>
+
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </div>
+
       <div class="right">
         <img src="./assets/rocket.svg" alt="" />
       </div>
+
       <div class="bottom">
         <img src="./assets/bottom-image.svg" alt="" />
       </div>
+
     </div>
     <script src="./main.js"></script>
   </body>
