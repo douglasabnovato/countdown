@@ -18,6 +18,10 @@ body {
 }
 
 .main {
+    height: 100vh;
+}
+
+.screen {
     position: relative;
     width: 1366px;
     height: 771px;
@@ -257,15 +261,27 @@ body {
     color: #6C63FF;
 }
 
-.listname ul{
+.data-list {
+    display: flex;
+    position: relative;
+    height: 100vh;
+    background: #6C63FF;
+}
+
+.listname {
+    margin: 0 auto;
+    width: 43vw;
+    height: 61vh;
+}
+
+.listname ul {
     position: absolute;
-    background-color: lightblue;
     width: 42vw;
-    height: 12vh;
-    margin: 0;
+    height: 60vh;
+    margin: 1rem;
     padding: 0;
     overflow-y: auto;
-} 
+}
 
 ul li {
     position: relative;
