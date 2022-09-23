@@ -4,6 +4,7 @@
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="versão 1 do projeto" title="#countdown" src="./.github/tela-desktop-1.jpg">
+  <img alt="versão 1 do projeto" title="#receita" src="./.github/tela-desktop-2.jpg">
 </p>  
 
 ### 💻 Sobre o desafio
@@ -96,6 +97,7 @@ Após concluí-los, adicionar esses códigos ao seu Github é uma boa forma de d
 - Desktop, evolução do layout:
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="versão 1 do projeto" title="#receita" src="./.github/tela-desktop-2.jpg">
   <img alt="versão 1 do projeto" title="#receita" src="./.github/tela-desktop-1.jpg">
 </p>
 
