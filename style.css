@@ -184,8 +184,9 @@ body {
     top: 542px;
 }
 
-.container-modal{
-    color: #8d0000;
+.container-modal {
+    color: #6C63FF;
+    font-weight: 700;
 }
 
 .modal {
@@ -210,7 +211,7 @@ body {
 }
 
 .modal>div {
-    width: 400px;
+    width: 490px;
     position: relative;
     margin: 10% auto;
     padding: 15px 20px;
@@ -225,8 +226,49 @@ body {
     text-align: center;
     line-height: 30px;
     margin-top: 5px;
-    background: #ff4545;
+    background: #6C63FF;
     border-radius: 50%;
     font-size: 16px;
-    color: #8d0000;
+    color: #201b7e;
+    text-decoration: none;
+}
+
+.container-modal form input[type=text],
+.container-modal form input[type=e-mail] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #6C63FF;
+}
+
+.container-modal form input[type=submit] {
+    background-color: #6C63FF;
+    color: white;
+    border: 2px solid #6C63FF;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.container-modal form input[type=submit]:hover {
+    background-color: white;
+    color: #6C63FF;
+}
+
+.header-modal {
+    padding: 20px 30px;
+    text-align: center;
+    background: #6C63FF;
+    color: white;
+    font-size: 30px;
+}
+
+.content-modal {
+    padding: 20px;
 }
