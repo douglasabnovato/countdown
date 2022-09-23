@@ -4,6 +4,7 @@
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="versão 1 do projeto" title="#countdown" src="./.github/tela-desktop-1.jpg">
+  <img alt="versão 1 do projeto" title="#receita" src="./.github/tela-desktop-2.jpg">
 </p>  
 
 ### 💻 Sobre o desafio
@@ -87,15 +88,17 @@ Após concluí-los, adicionar esses códigos ao seu Github é uma boa forma de d
 - [ ] [Learn Responsive Design](https://web.dev/learn/design/)
 - [ ] [Learn CSS](https://web.dev/learn/css/)
 - [x] Design sugerido construído
-- [ ] Exibir informações da inscrição no home abaixo do botão
-- [ ] usar [addEventListener](https://www.w3schools.com/jsref/event_preventdefault.asp) nos botões 
-- [ ] estilizar o modal com a identidade da home
+- [x] Adicionar informações da inscrição
+- [x] estilizar o modal com a identidade da home
+- [x] estilizar a lista de informações de inscritos  
+- [ ] Persistir lista
 
 #### 📅 Telas
 
 - Desktop, evolução do layout:
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="versão 1 do projeto" title="#receita" src="./.github/tela-desktop-2.jpg">
   <img alt="versão 1 do projeto" title="#receita" src="./.github/tela-desktop-1.jpg">
 </p>
 
