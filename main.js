@@ -18,24 +18,16 @@ var x = setInterval(function () {
   }
 }, 1000);
 
-
 /* abrir modal */
-
-// Get the modal
 var modal = document.getElementById("abrirModal");
-
-// Get the button that opens the modal
 var btn = document.getElementById("inscrever");
 
-// When the user clicks the button, open the modal 
-btn.onclick = function() {
+btn.onclick = function () {
   modal.style.display = "block";
-}
+};
 
 /* adicionar list */
 
-
-// Create a "close" button and append it to each list item
 var myNodelist = document.getElementsByTagName("LI");
 var i;
 
@@ -47,50 +39,42 @@ for (i = 0; i < myNodelist.length; i++) {
   myNodelist[i].appendChild(span);
 }
 
-// Click on a close button to hide the current list item
 var close = document.getElementsByClassName("close");
 var i;
 
 for (i = 0; i < close.length; i++) {
-  close[i].onclick = function() {
+  close[i].onclick = function () {
     var div = this.parentElement;
     div.style.display = "none";
-  }
+  };
 }
 
-// Add a "checked" symbol when clicking on a list item
-var list = document.querySelector('ul');
-
-list.addEventListener('click', function(ev) {
-  if (ev.target.tagName === 'LI') {
-    ev.target.classList.toggle('checked');
-  }
-}, false);
-
-// Create a new list item when clicking on the "Add" button
 function newElement() {
-  var li = document.createElement("li");
-  var inputValue = document.getElementById("name").value;
-  var t = document.createTextNode(inputValue);
+  var inputValueName = document.getElementById("name").value;
+  var inputValueEmail = document.getElementById("email").value;
+  var verified = document.getElementById("verified");
 
-  li.appendChild(t);
-  if (inputValue === '') {
-    alert("You must write something!");
+  if (inputValueName === "" || inputValueEmail === "") {
+    verified.innerHTML = "Você deve escrever seu nome e seu melhor email!";
   } else {
+    var li = document.createElement("li");
+    var t = document.createTextNode(inputValueName + ": " + inputValueEmail);
+    li.appendChild(t);
     document.getElementById("myUL").appendChild(li);
+    document.getElementById("name").value = "";
+    document.getElementById("email").value = "";
+    var span = document.createElement("SPAN");
+    var txt = document.createTextNode("\u00D7");
+    span.className = "close";
+    span.appendChild(txt);
+    li.appendChild(span);
+    verified.innerHTML = "Cadastrado com sucesso!";
   }
-  document.getElementById("name").value = "";
-
-  var span = document.createElement("SPAN");
-  var txt = document.createTextNode("\u00D7");
-  span.className = "close";
-  span.appendChild(txt);
-  li.appendChild(span);
 
   for (i = 0; i < close.length; i++) {
-    close[i].onclick = function() {
+    close[i].onclick = function () {
       var div = this.parentElement;
       div.style.display = "none";
-    }
+    };
   }
 }

@@ -242,7 +242,7 @@ body {
     border: 1px solid #6C63FF;
 }
 
-.container-modal form input[type=submit] {
+.container-modal form .sendBtn {
     background-color: #6C63FF;
     color: white;
     border: 2px solid #6C63FF;
@@ -265,7 +265,7 @@ body {
     display: flex;
     position: relative;
     height: 100vh;
-    background: #6C63FF;
+    background: rgba(108, 99, 255, .5);
 }
 
 .listname {
@@ -278,7 +278,7 @@ body {
     position: absolute;
     width: 42vw;
     height: 60vh;
-    margin: 1rem;
+    margin-top: 3rem;
     padding: 0;
     overflow-y: auto;
 }
